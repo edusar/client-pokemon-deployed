@@ -1,6 +1,6 @@
 import "./Card.css"
 import {useHistory} from "react-router-dom"
-import {getPokemonsById} from '../../../../../../PI-Pokemon-main/PI-Pokemon-main/client/src/actions/actionCreator'
+import {getPokemonsById} from '../../actions/actionCreator'
 import { useDispatch, useState} from "react-redux"
 import cargando from "../imagenes/cargando.gif"
 

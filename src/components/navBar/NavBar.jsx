@@ -1,5 +1,5 @@
 import "./NavBar.css"
-import { getAllPokemons,cleanState, getPokemonTypeSelected, orderPokemonByAttack,orderPokemonAlphabet, filterByCreated} from "../../../../../../PI-Pokemon-main/PI-Pokemon-main/client/src/actions/actionCreator"
+import { getAllPokemons,cleanState, getPokemonTypeSelected, orderPokemonByAttack,orderPokemonAlphabet, filterByCreated} from "../../actions/actionCreator"
 import { useState, useEffect } from "react"
 import { useDispatch,useSelector } from "react-redux"
 import { useHistory } from "react-router-dom"

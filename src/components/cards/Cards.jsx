@@ -2,7 +2,7 @@ import "./Cards.css"
 import Card from '../card/Card'
 import {useSelector,useDispatch} from "react-redux"
 import { useEffect, useState } from "react"
-import { getAllPokemons, getTypes} from "../../../../../../PI-Pokemon-main/PI-Pokemon-main/client/src/actions/actionCreator"
+import { getAllPokemons, getTypes} from "../../actions/actionCreator"
 import cargando from "../imagenes/cargando.gif"
 
 
